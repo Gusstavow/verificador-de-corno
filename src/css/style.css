@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    
+
+}
+
+main{
+    background-color: aliceblue;
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+    
+
+}
+
+header{
+
+}
+section{
+
+}
+
+footer{
+
+}
