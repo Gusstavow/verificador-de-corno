@@ -13,7 +13,7 @@
     <main>
         <header>
             <h1>Verificador de Corno 3000</h1>
-            <p>Corno sim, manso jamais!!!</p>
+            
 
         </header>
         <section>
@@ -25,7 +25,7 @@
                 </li>
                 <li>
                     <input class="qt" type="checkbox" name="in-checkbox-question" id="in-checkbox-2nd-question">
-                    <label for="in-checkbox-2nd-question">Voce gosta da cor <span>Azul</span>?</label>
+                    <label for="in-checkbox-2nd-question">Voce tem no minimo 1,80 de altura?</label>
                 </li>
                 <li>
                     <input class="qt" type="checkbox" name="in-checkbox-question" id="in-checkbox-3rd-question" checked>
@@ -36,17 +36,19 @@
                     <label for="in-checkbox-4th-question">Xbox ou Playstation?(Escolha apenas uma)</label>
                 </li>
             </ol>
-            <input type="button" value="Verificar" onclick="Verificar()">
+            <div class="botao-div">
+                <input class= "botao-verificar" type="button" value="Verificar" onclick="Verificar()">
+            </div>
 
             <div id="res">
-                Resposta...
+                <p id="resposta">Resposta</p>
             </div>
 
 
         </section>
 
         <footer>
-            <p>&copy; Gustavo</p>
+            <p> Gustavo Ferreira &copy; 2023. <em>Corno sim, manso jamais!!!</em></p>
         </footer>
 
 

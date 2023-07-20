@@ -4,7 +4,7 @@ var total = 0;
 var min_pontos_para_corno = 30
 var imagem = document.createElement("img")
 var insta_corno = document.getElementsByClassName("insta-corno");
-
+var resposta = document.querySelector("p#resposta");
 
 
 
@@ -25,13 +25,17 @@ function Verificar() {
             
     
         }
+            
+        
 
     }
+    NenhamaOpcaoSelecionada();
     
 
 }
 
 function VerificarTotalPontos(){
+    
     if(total >= min_pontos_para_corno){
         AlertaDeCornoNaTela();
         
@@ -41,7 +45,7 @@ function VerificarTotalPontos(){
 
 function AlertaDeCornoNaTela(){
     alert("Detectamos um corno manso da pior especie!!!!! Favor retirar-se do meu site!");
-    res.innerHTML = "<strong>Corno Manso</strong> detectado com sucesso! Recomendo rever todos os seus conceitos e tentar novamente mais tarde. Obrigado!"
+    resposta.innerHTML = "<strong>Corno Manso</strong> detectado com sucesso! Recomendo rever todos os seus conceitos e tentar novamente mais tarde. Obrigado!"
     imagem.setAttribute("src", "./img/coringa.jpg")
     res.appendChild(imagem)
     res.style.textAlign = "center"
@@ -53,6 +57,13 @@ function CornoInsta(){
       
             insta_corno[i].addEventListener("click", AlertaDeCornoNaTela);
 
+    }
+}
+
+function NenhamaOpcaoSelecionada(){
+    if(total == 0){
+        alert("Voce nao escolheu nenhuma das alternativa.Tente escolhendo algumas abaixo,apenas para fins de testes.")
+    
     }
 }
 
