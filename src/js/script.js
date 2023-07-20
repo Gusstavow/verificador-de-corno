@@ -40,6 +40,9 @@ function VerificarTotalPontos(){
         AlertaDeCornoNaTela();
         
 
+    }else if(total <=10){
+        alert("Cuidado!! grande potencial para se tornar um corno bem manso.");
+
     }
 }
 
@@ -62,7 +65,7 @@ function CornoInsta(){
 
 function NenhamaOpcaoSelecionada(){
     if(total == 0){
-        alert("Voce nao escolheu nenhuma das alternativa.Tente escolhendo algumas abaixo,apenas para fins de testes.")
+        alert("Voce nao escolheu nenhuma das alternativa.Isso mostra que voce e um corno manso que nao acredita em si mesmo.")
     
     }
 }

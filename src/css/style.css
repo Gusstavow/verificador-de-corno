@@ -96,5 +96,7 @@ div#res{
 }
 
 footer{
-
+text-align: center;
+padding: 1px;
+border-top: 1px solid black;
 }
