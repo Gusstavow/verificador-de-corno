@@ -49,7 +49,7 @@ function VerificarTotalPontos(){
 function AlertaDeCornoNaTela(){
     alert("Detectamos um corno manso da pior especie!!!!! Favor retirar-se do meu site!");
     resposta.innerHTML = "<strong>Corno Manso</strong> detectado com sucesso! Recomendo rever todos os seus conceitos e tentar novamente mais tarde. Obrigado!"
-    imagem.setAttribute("src", "./img/coringa.jpg")
+    imagem.setAttribute("src", "./src/img/coringa.jpg")
     res.appendChild(imagem)
     res.style.textAlign = "center"
 }
