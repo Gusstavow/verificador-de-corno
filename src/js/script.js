@@ -73,6 +73,8 @@ function AlertaDeCornoNaTela() {
 function NenhamaOpcaoSelecionada() {
     if (total == 0) {
         alert("Voce nao escolheu nenhuma das alternativa.Isso mostra que voce e um corno manso que nao acredita em si mesmo.")
+        imagem.setAttribute("src","./src/img/imgAnimal/c-n4.jpg")
+        res.appendChild(imagem)
 
     }
 }
