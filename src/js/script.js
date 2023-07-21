@@ -8,9 +8,6 @@ var resposta = document.querySelector("p#resposta");
 let totalPontos = document.querySelector("#total-pontos");
 
 
-
-
-
 function Verificar() {
     total = 0;
 
@@ -22,10 +19,7 @@ function Verificar() {
             MostrarPontosNaTela();
             // alert("Corno");
 
-
         }
-
-
 
     }
     NenhamaOpcaoSelecionada();
@@ -67,7 +61,6 @@ function AlertaDeCornoNaTela() {
     }
     res.style.textAlign = "center"
 }
-
 
 
 function NenhamaOpcaoSelecionada() {
