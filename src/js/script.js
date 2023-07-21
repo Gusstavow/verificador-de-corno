@@ -5,6 +5,8 @@ var min_pontos_para_corno = 30
 var imagem = document.createElement("img")
 var insta_corno = document.getElementsByClassName("insta-corno");
 var resposta = document.querySelector("p#resposta");
+let totalPontos = document.querySelector("#total-pontos");
+
 
 
 
@@ -17,6 +19,7 @@ function Verificar() {
             total += 10;
             
             VerificarTotalPontos();
+            MostrarPontosNaTela();
             // alert("Corno");
 
 
@@ -30,12 +33,13 @@ function Verificar() {
 
 }
 
+function MostrarPontosNaTela(){
+    totalPontos.innerHTML = `${total} pontos `
+}
+
 function VerificarTotalPontos() {
 
-
     AlertaDeCornoNaTela();
-
-
 
 }
 
@@ -65,15 +69,6 @@ function AlertaDeCornoNaTela() {
 }
 
 
-
-function CornoInsta() {
-
-    for (var i = 0; i < insta_corno.length; i++) {
-
-        insta_corno[i].addEventListener("click", AlertaDeCornoNaTela);
-
-    }
-}
 
 function NenhamaOpcaoSelecionada() {
     if (total == 0) {

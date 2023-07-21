@@ -18,7 +18,7 @@ body{
 }
 
 main{
-    background-color: aliceblue;
+    background-color: rgb(150, 150, 150);
     background-image: url(../img/white-page.jpg);
     
     background-size: cover;
@@ -32,11 +32,17 @@ main{
 
 }
 
-.op-1:hover ,.op-2:hover,.op-3:hover , .op-4:hover{
-    background-color: rgba(2, 2, 2, 0.164);
+
+
+div#div-pontos-tela{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    font-size: 1.3em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
 }
-
-
 
 img{
     width: 300px;
@@ -44,16 +50,19 @@ img{
     border-radius: 50%;
     padding: 5px;
     margin-top: 10px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.425);
     
 }
 
 p{
     padding: 5px;
+    
 }
 
 header{
     margin-bottom: 5px;
     text-align: center;
+    
 
 
     
@@ -66,6 +75,7 @@ header h1{
 
 .botao-div{
     text-align: center;
+    
 }
 
 p{
@@ -78,6 +88,11 @@ section h2{
     margin-bottom: 10px;
     border-bottom: 1px solid black;
     width: 100%;
+    
+}
+
+h1, h2 , label{
+    text-shadow: 1px 2px 3px  rgba(0, 0, 0, 0.479);
 }
 section ol{
     padding: 10px 5px 10px 25px;
@@ -93,6 +108,7 @@ section li{
     cursor: pointer;
     transition: 0.3s ease;
     margin: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
 }
 
 .botao-verificar:hover{
@@ -113,4 +129,25 @@ footer{
 text-align: center;
 padding: 1px;
 border-top: 1px solid black;
+
+}
+
+footer > p{
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+    transition: 0.5s ease;
+}
+
+footer>p:hover{
+    
+    font-size: 1.2em;
+}
+
+.op-1,.op-2,.op-3, .op-4{
+    transition: 0.5s ease;
+}
+
+.op-1:hover ,.op-2:hover,.op-3:hover , .op-4:hover{
+    background-color: rgba(2, 2, 2, 0.164);
+    font-size: 1.2em;
+    cursor: pointer;
 }
