@@ -7,19 +7,36 @@
 
 body{
     background-color: antiquewhite;
+    background-image: url(../img/black-white.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    
     
 
 }
 
 main{
     background-color: aliceblue;
+    background-image: url(../img/white-page.jpg);
     
+    background-size: cover;
+    background-position: top right;
+    
+
     max-width: 600px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
     
 
 }
+
+.op-1:hover ,.op-2:hover,.op-3:hover , .op-4:hover{
+    background-color: rgba(2, 2, 2, 0.164);
+}
+
+
 
 img{
     width: 300px;
@@ -46,10 +63,7 @@ header h1{
     padding: 10px;
     
 }
-section{
-    
 
-}
 .botao-div{
     text-align: center;
 }
