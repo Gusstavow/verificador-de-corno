@@ -58,11 +58,11 @@ function AlertaDeCornoNaTela() {
     }
 
     else if (total >= 30 && total < 40) {
-        imagem.setAttribute("src", "./src/img/imgAnimal/c-n1.jpg")
+        imagem.setAttribute("src","./src/img/coringa.jpg")
         res.appendChild(imagem)
 
     } else if (total >= 20 && total < 30) {
-        imagem.setAttribute("src", "./src/img/coringa.jpg")
+        imagem.setAttribute("src","./src/img/imgAnimal/c-n1.jpg")
         res.appendChild(imagem)
     }
     res.style.textAlign = "center"

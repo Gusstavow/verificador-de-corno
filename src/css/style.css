@@ -62,7 +62,7 @@ p{
 header{
     margin-bottom: 5px;
     text-align: center;
-    
+    background-image: linear-gradient(to bottom, rgb(54, 54, 54), white);
 
 
     
@@ -109,10 +109,12 @@ section li{
     transition: 0.3s ease;
     margin: 5px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.377);
+    
 }
 
 .botao-verificar:hover{
     background-color: rgba(147, 203, 240, 0.342);
+    
 }
 
 div#res{
