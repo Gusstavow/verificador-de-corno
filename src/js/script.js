@@ -8,7 +8,6 @@ var resposta = document.querySelector("p#resposta");
 let totalPontos = document.querySelector("#total-pontos");
 
 
-
 function Verificar() {
     total =0;
 
@@ -16,10 +15,6 @@ function Verificar() {
         if (escolha_usuario[i].checked) {
             total += 10;
             
-           
-            // alert("Corno");
-            
-
         }
 
     }
@@ -31,27 +26,19 @@ function Verificar() {
     VerificarTotalPontos();
     MostrarPontosNaTela();
     
-    
-   
-
-
 }
 
 function MostrarPontosNaTela(){
     totalPontos.innerHTML = `${total} pontos `
     
 }
-
 function VerificarTotalPontos() {
     
-
     AlertaDeCornoNaTela();
-
 }
 
 function AlertaDeCornoNaTela() {
     
-
 
     if (total <= 10) {
         alert("Cuidado!! grande potencial para se tornar um corno bem manso.");
@@ -74,7 +61,6 @@ function AlertaDeCornoNaTela() {
     } else if (total >= 40 && total <=50) {
        
 
-
         imagem.setAttribute("src", "./src/img/imgAnimal/c-n3.jpg")
         res.appendChild(imagem)
 
@@ -82,12 +68,9 @@ function AlertaDeCornoNaTela() {
         resposta.innerHTML = "<strong>Corno Manso</strong> detectado com sucesso! Recomendo rever todos os seus conceitos e tentar novamente mais tarde. Obrigado!"
     }
 
-
-
     res.style.textAlign = "center"
     
 }
-
 
 function NenhamaOpcaoSelecionada() {
     
@@ -95,9 +78,7 @@ function NenhamaOpcaoSelecionada() {
         imagem.setAttribute("src","./src/img/imgAnimal/c-n4.jpg")
         res.appendChild(imagem)
 
-    
 }
-
 
 
 function trocarOpcao5(){
