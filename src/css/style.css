@@ -32,6 +32,7 @@ main{
     transition: width 0.5s, height 0.5s;
     transition-timing-function: ease;
     
+    border:2px solid rgb(0, 0, 0);
 
 }
 
@@ -166,8 +167,9 @@ footer>p:hover{
 }
 
 .op-1,.op-2,.op-3, .op-4, .op-5{
-    transition:0.5s ease;
+    transition: background-color, font-size 0.5s ease;
     width: 350px;
+    visibility: visible;
 }
 
 .op-1:hover ,.op-2:hover,.op-3:hover , .op-4:hover,.op-5:hover{
