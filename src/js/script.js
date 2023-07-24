@@ -6,6 +6,7 @@ var imagem = document.createElement("img")
 var insta_corno = document.getElementsByClassName("insta-corno");
 var resposta = document.querySelector("p#resposta");
 let totalPontos = document.querySelector("#total-pontos");
+const op3 = document.querySelector("li.op-3");
 
 
 function Verificar() {
@@ -87,5 +88,16 @@ function trocarOpcao5(){
     op5.innerHTML = "Sou corno!."
 
 }
+
+function Invisivel(){
+    
+    if(op3.style.visibility = "visible"){
+        op3.style.visibility = "hidden"
+
+    }
+   
+    
+}
+
 
 
